@@ -37,7 +37,7 @@ public class Main {
 			Session session = Session.getDefaultInstance(props, null);
 
 			Store store = session.getStore("imaps");
-			store.connect("smtp.gmail.com", "pm31121988@gmail.com", "Sweetls2607@");
+			store.connect("smtp.gmail.com", "pm31121988@gmail.com", "***@");
 
 			Folder inbox = store.getFolder("inbox");
 			inbox.open(Folder.READ_ONLY);
